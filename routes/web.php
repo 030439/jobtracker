@@ -17,8 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::prefix('user')->middleware('client')->group(function(){
-
-});
-Route::controller(clientController::class)->group(function(){
-    Route::get('/user','index');
+    Route::controller(clientController::class)->group(function(){
+        Route::get('/','index');
+    });
 });
