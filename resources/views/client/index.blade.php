@@ -1,3 +1,5 @@
+@extends('layout.client')
+@section('content')
 <div class="content-body">
         <!-- row -->
         <div class="container-fluid">
@@ -1669,3 +1671,4 @@
           </div>
         </div>
       </div>
+      @endsection
