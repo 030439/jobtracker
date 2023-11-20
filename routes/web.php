@@ -16,6 +16,9 @@ use App\Http\Controllers\ClientController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::prefix('user')->middleware('client')->group(function(){
+
+});
 Route::controller(clientController::class)->group(function(){
     Route::get('/user','index');
 });
