@@ -771,7 +771,7 @@
                       <div class="row">
                         <div class="col-xl-8 col-xxl-7 col-sm-7">
                           <div class="update-profile d-flex">
-                            <img src="images/profile/pic1.jpg" alt="" />
+                            <img src="{{asset('images/profile/pic1.jpg')}}" alt="" />
                             <div class="ms-4">
                               <h3 class="fs-24 font-w600 mb-0">Franklin Jr</h3>
                               <span class="text-primary d-block mb-4"

@@ -29,13 +29,13 @@
     <!-- FAVICONS ICON -->
     <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
     <link
-      href="vendor/jquery-nice-select/css/nice-select.css"
+      href="{{asset('vendor/jquery-nice-select/css/nice-select.css')}}"
       rel="stylesheet"
     />
-    <link href="vendor/owl-carousel/owl.carousel.css" rel="stylesheet" />
+    <link href="{{asset('vendor/owl-carousel/owl.carousel.css')}}" rel="stylesheet" />
 
     <!-- Style css -->
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="{{asset('css/style.css')}}" rel="stylesheet" />
   </head>
   <body>
     <!--*******************
@@ -205,8 +205,7 @@
                           height="2"
                           rx="1"
                         />
-                      </g></svg
-                  ></a>
+                      </g></svg></a>
                   <div>
                     <h6 class="mb-1">Chat List</h6>
                     <p class="mb-0">Show All</p>
@@ -230,8 +229,7 @@
                         <circle fill="#000000" cx="5" cy="12" r="2" />
                         <circle fill="#000000" cx="12" cy="12" r="2" />
                         <circle fill="#000000" cx="19" cy="12" r="2" />
-                      </g></svg
-                  ></a>
+                      </g></svg></a>
                 </div>
                 <div
                   class="card-body contacts_body p-0 dlab-scroll"
@@ -243,7 +241,7 @@
                       <div class="d-flex bd-highlight">
                         <div class="img_cont">
                           <img
-                            src="images/avatar/1.jpg"
+                            src="{{asset('images/avatar/1.jpg')}}"
                             class="rounded-circle user_img"
                             alt=""
                           />
@@ -259,7 +257,7 @@
                       <div class="d-flex bd-highlight">
                         <div class="img_cont">
                           <img
-                            src="images/avatar/2.jpg"
+                            src="{{asset('images/avatar/2.jpg')}}"
                             class="rounded-circle user_img"
                             alt=""
                           />
@@ -275,7 +273,7 @@
                       <div class="d-flex bd-highlight">
                         <div class="img_cont">
                           <img
-                            src="images/avatar/3.jpg"
+                            src="{{asset('images/avatar/3.jpg')}}"
                             class="rounded-circle user_img"
                             alt=""
                           />
@@ -291,7 +289,7 @@
                       <div class="d-flex bd-highlight">
                         <div class="img_cont">
                           <img
-                            src="images/avatar/4.jpg"
+                            src="{{asset('images/avatar/4.jpg')}}"
                             class="rounded-circle user_img"
                             alt=""
                           />
@@ -308,7 +306,7 @@
                       <div class="d-flex bd-highlight">
                         <div class="img_cont">
                           <img
-                            src="images/avatar/5.jpg"
+                            src="{{asset('images/avatar/5.jpg')}}"
                             class="rounded-circle user_img"
                             alt=""
                           />
@@ -324,7 +322,7 @@
                       <div class="d-flex bd-highlight">
                         <div class="img_cont">
                           <img
-                            src="images/avatar/1.jpg"
+                            src="{{asset('images/avatar/1.jpg')}}"
                             class="rounded-circle user_img"
                             alt=""
                           />
@@ -340,7 +338,7 @@
                       <div class="d-flex bd-highlight">
                         <div class="img_cont">
                           <img
-                            src="images/avatar/2.jpg"
+                            src="{{asset('images/avatar/2.jpg')}}"
                             class="rounded-circle user_img"
                             alt=""
                           />
@@ -357,7 +355,7 @@
                       <div class="d-flex bd-highlight">
                         <div class="img_cont">
                           <img
-                            src="images/avatar/3.jpg"
+                            src="{{asset('images/avatar/3.jpg')}}"
                             class="rounded-circle user_img"
                             alt=""
                           />
@@ -373,7 +371,7 @@
                       <div class="d-flex bd-highlight">
                         <div class="img_cont">
                           <img
-                            src="images/avatar/4.jpg"
+                            src="{{asset('images/avatar/4.jpg')}}"
                             class="rounded-circle user_img"
                             alt=""
                           />
@@ -390,7 +388,7 @@
                       <div class="d-flex bd-highlight">
                         <div class="img_cont">
                           <img
-                            src="images/avatar/5.jpg"
+                            src="{{asset('images/avatar/5.jpg')}}"
                             class="rounded-circle user_img"
                             alt=""
                           />
@@ -406,7 +404,7 @@
                       <div class="d-flex bd-highlight">
                         <div class="img_cont">
                           <img
-                            src="images/avatar/1.jpg"
+                            src="{{asset('images/avatar/1.jpg')}}"
                             class="rounded-circle user_img"
                             alt=""
                           />
@@ -422,7 +420,7 @@
                       <div class="d-flex bd-highlight">
                         <div class="img_cont">
                           <img
-                            src="images/avatar/2.jpg"
+                            src="{{asset('images/avatar/2.jpg')}}"
                             class="rounded-circle user_img"
                             alt=""
                           />
@@ -438,7 +436,7 @@
                       <div class="d-flex bd-highlight">
                         <div class="img_cont">
                           <img
-                            src="images/avatar/3.jpg"
+                            src="{{asset('images/avatar/3.jpg')}}"
                             class="rounded-circle user_img"
                             alt=""
                           />
@@ -455,7 +453,7 @@
                       <div class="d-flex bd-highlight">
                         <div class="img_cont">
                           <img
-                            src="images/avatar/4.jpg"
+                            src="{{asset('images/avatar/4.jpg')}}"
                             class="rounded-circle user_img"
                             alt=""
                           />
@@ -471,7 +469,7 @@
                       <div class="d-flex bd-highlight">
                         <div class="img_cont">
                           <img
-                            src="images/avatar/5.jpg"
+                            src="{{asset('images/avatar/5.jpg')}}"
                             class="rounded-circle user_img"
                             alt=""
                           />
@@ -578,7 +576,7 @@
                   <div class="d-flex justify-content-start mb-4">
                     <div class="img_cont_msg">
                       <img
-                        src="images/avatar/1.jpg"
+                        src="{{asset('images/avatar/1.jpg')}}"
                         class="rounded-circle user_img_msg"
                         alt=""
                       />
@@ -595,7 +593,7 @@
                     </div>
                     <div class="img_cont_msg">
                       <img
-                        src="images/avatar/2.jpg"
+                        src="{{asset('images/avatar/2.jpg')}}"
                         class="rounded-circle user_img_msg"
                         alt=""
                       />
@@ -604,7 +602,7 @@
                   <div class="d-flex justify-content-start mb-4">
                     <div class="img_cont_msg">
                       <img
-                        src="images/avatar/1.jpg"
+                        src="{{asset('images/avatar/1.jpg')}}"
                         class="rounded-circle user_img_msg"
                         alt=""
                       />
@@ -621,7 +619,7 @@
                     </div>
                     <div class="img_cont_msg">
                       <img
-                        src="images/avatar/2.jpg"
+                        src="{{asset('images/avatar/2.jpg')}}"
                         class="rounded-circle user_img_msg"
                         alt=""
                       />
@@ -630,7 +628,7 @@
                   <div class="d-flex justify-content-start mb-4">
                     <div class="img_cont_msg">
                       <img
-                        src="images/avatar/1.jpg"
+                        src="{{asset('images/avatar/1.jpg')}}"
                         class="rounded-circle user_img_msg"
                         alt=""
                       />
@@ -647,7 +645,7 @@
                     </div>
                     <div class="img_cont_msg">
                       <img
-                        src="images/avatar/2.jpg"
+                        src="{{asset('images/avatar/2.jpg')}}"
                         class="rounded-circle user_img_msg"
                         alt=""
                       />
@@ -656,7 +654,7 @@
                   <div class="d-flex justify-content-start mb-4">
                     <div class="img_cont_msg">
                       <img
-                        src="images/avatar/1.jpg"
+                        src="{{asset('images/avatar/1.jpg')}}"
                         class="rounded-circle user_img_msg"
                         alt=""
                       />
@@ -669,7 +667,7 @@
                   <div class="d-flex justify-content-start mb-4">
                     <div class="img_cont_msg">
                       <img
-                        src="images/avatar/1.jpg"
+                        src="{{asset('images/avatar/1.jpg')}}"
                         class="rounded-circle user_img_msg"
                         alt=""
                       />
@@ -686,7 +684,7 @@
                     </div>
                     <div class="img_cont_msg">
                       <img
-                        src="images/avatar/2.jpg"
+                        src="{{asset('images/avatar/2.jpg')}}"
                         class="rounded-circle user_img_msg"
                         alt=""
                       />
@@ -695,7 +693,7 @@
                   <div class="d-flex justify-content-start mb-4">
                     <div class="img_cont_msg">
                       <img
-                        src="images/avatar/1.jpg"
+                        src="{{asset('images/avatar/1.jpg')}}"
                         class="rounded-circle user_img_msg"
                         alt=""
                       />
@@ -712,7 +710,7 @@
                     </div>
                     <div class="img_cont_msg">
                       <img
-                        src="images/avatar/2.jpg"
+                        src="{{asset('images/avatar/2.jpg')}}"
                         class="rounded-circle user_img_msg"
                         alt=""
                       />
@@ -721,7 +719,7 @@
                   <div class="d-flex justify-content-start mb-4">
                     <div class="img_cont_msg">
                       <img
-                        src="images/avatar/1.jpg"
+                        src="{{asset('images/avatar/1.jpg')}}"
                         class="rounded-circle user_img_msg"
                         alt=""
                       />
@@ -738,7 +736,7 @@
                     </div>
                     <div class="img_cont_msg">
                       <img
-                        src="images/avatar/2.jpg"
+                        src="{{asset('images/avatar/2.jpg')}}"
                         class="rounded-circle user_img_msg"
                         alt=""
                       />
@@ -747,7 +745,7 @@
                   <div class="d-flex justify-content-start mb-4">
                     <div class="img_cont_msg">
                       <img
-                        src="images/avatar/1.jpg"
+                        src="{{asset('images/avatar/1.jpg')}}"
                         class="rounded-circle user_img_msg"
                         alt=""
                       />
@@ -1154,7 +1152,7 @@
                               <img
                                 alt="image"
                                 width="50"
-                                src="images/avatar/1.jpg"
+                                src="{{asset('images/avatar/1.jpg')}}"
                               />
                             </div>
                             <div class="media-body">
@@ -1195,7 +1193,7 @@
                               <img
                                 alt="image"
                                 width="50"
-                                src="images/avatar/1.jpg"
+                                src="{{asset('images/avatar/1.jpg')}}"
                               />
                             </div>
                             <div class="media-body">
@@ -1361,7 +1359,7 @@
                     role="button"
                     data-bs-toggle="dropdown"
                   >
-                    <img src="images/profile/pic1.jpg" width="20" alt="" />
+                    <img src="{{asset('images/profile/pic1.jpg')}}" width="20" alt="" />
                   </a>
                   <div class="dropdown-menu dropdown-menu-end">
                     <a href="app-profile.html" class="dropdown-item ai-icon">
