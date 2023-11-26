@@ -21,6 +21,10 @@ Route::prefix('user')->middleware('client')->group(function(){
     Route::controller(UserController::class)->group(function(){
         Route::get('/users','getUser');
     });
+    Route::controoler(PaymentController::class)->group(function(){
+    
+    });
+
 });
 
 
