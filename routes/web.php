@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ClientController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
@@ -18,10 +18,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::prefix('user')->middleware('client')->group(function(){
-    Route::controller(clientController::class)->group(function(){
-        Route::get('/user','index');
+    Route::controller(UserController::class)->group(function(){
+        Route::get('/users','getUser');
     });
 });
+
 
 Auth::routes();
 
