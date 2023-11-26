@@ -23,7 +23,7 @@ Route::prefix('user')->middleware('client')->group(function(){
         Route::get('/users','getUser');
     });
     //payment contoller
-    Route::controoler(PaymentController::class)->group(function(){
+    Route::controller(PaymentController::class)->group(function(){
         Route::get('/payment','index');
         Route::post('/create-payment-intent','createPaymentIntent');
         Route::get('/payment-success','paymentSuccess');
