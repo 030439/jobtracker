@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PaymentController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,8 +22,11 @@ Route::prefix('user')->middleware('client')->group(function(){
     Route::controller(UserController::class)->group(function(){
         Route::get('/users','getUser');
     });
+    //payment contoller
     Route::controoler(PaymentController::class)->group(function(){
-    
+        Route::get('/payment','index');
+        Route::post('/create-payment-intent','createPaymentIntent');
+        Route::get('/payment-success','paymentSuccess');
     });
 
 });
